@@ -16,6 +16,7 @@
 		CE11D2202B2DB9F900886DA9 /* VitaminoManiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11D21F2B2DB9F900886DA9 /* VitaminoManiaTests.swift */; };
 		CE11D22A2B2DB9F900886DA9 /* VitaminoManiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11D2292B2DB9F900886DA9 /* VitaminoManiaUITests.swift */; };
 		CE11D22C2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11D22B2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift */; };
+		CE11D2392B2DCB5600886DA9 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE11D2382B2DCB5600886DA9 /* Color.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE11D2252B2DB9F900886DA9 /* VitaminoManiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitaminoManiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE11D2292B2DB9F900886DA9 /* VitaminoManiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminoManiaUITests.swift; sourceTree = "<group>"; };
 		CE11D22B2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminoManiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE11D2382B2DCB5600886DA9 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CE11D2112B2DB9F800886DA9 /* Assets.xcassets */,
 				CE11D2132B2DB9F800886DA9 /* LaunchScreen.storyboard */,
 				CE11D2162B2DB9F800886DA9 /* Info.plist */,
+				CE11D2382B2DCB5600886DA9 /* Color.xcassets */,
 			);
 			path = VitaminoMania;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE11D2152B2DB9F800886DA9 /* LaunchScreen.storyboard in Resources */,
+				CE11D2392B2DCB5600886DA9 /* Color.xcassets in Resources */,
 				CE11D2122B2DB9F800886DA9 /* Assets.xcassets in Resources */,
 				CE11D2102B2DB9F600886DA9 /* Main.storyboard in Resources */,
 			);

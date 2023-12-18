@@ -19,7 +19,9 @@
                         <viewLayoutGuide key="safeArea" id="OGp-e6-R6e"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Summer" image="summer" selectedImage="summer" id="ho2-jo-IrY"/>
+                    <tabBarItem key="tabBarItem" title="Summer" image="summer" selectedImage="summer" id="ho2-jo-IrY">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ynp-J2-Vik" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -51,7 +53,9 @@
                         <viewLayoutGuide key="safeArea" id="bVD-CU-NTC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Spring" image="spring" selectedImage="spring" id="jIC-b2-WBd"/>
+                    <tabBarItem key="tabBarItem" title="Spring" image="spring" selectedImage="spring" id="jIC-b2-WBd">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kSj-GO-L7g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -87,7 +91,10 @@
                         <viewLayoutGuide key="safeArea" id="YBO-kw-Omf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Autumn" image="autumn" selectedImage="autumn" id="ZOJ-vz-UO2"/>
+                    <tabBarItem key="tabBarItem" title="Autumn" image="autumn" id="ZOJ-vz-UO2">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Csf-8h-bFa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -97,7 +104,9 @@
         <scene sceneID="fRv-xu-H89">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gud-TN-Tv4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Winter" image="winter" id="PB0-dp-A07"/>
+                    <tabBarItem key="tabBarItem" title="Winter" image="winter" id="PB0-dp-A07">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PyF-rk-und">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -114,10 +123,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="autumn" width="48" height="48"/>
-        <image name="spring" width="48" height="48"/>
-        <image name="summer" width="48" height="48"/>
-        <image name="winter" width="48" height="48"/>
+        <image name="autumn" width="40" height="40"/>
+        <image name="spring" width="40" height="40"/>
+        <image name="summer" width="40" height="40"/>
+        <image name="winter" width="40" height="40"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

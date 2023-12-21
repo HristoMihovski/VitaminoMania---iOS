@@ -7,6 +7,3 @@ Everyone can use it. It's for children and people +7 years old, because some of 
 # App Store
 "VitaminoMania" will be avaible for use on the Apple's - App Store. It'll be free for downloading and for now there will be no in-app purchaces. In the next v2.0 beta I'm thinking for an option for in-app purchaces(for more follow me on Twitter were I anounce everything @HMihovski).
 
-# For more info
-For more info about the app realese you can see here:
-![Twitter Banner](https://github.com/HristoMihovski/VitaminoMania---iOS/assets/144589040/2c23a29b-985f-48bb-858d-9952a2bc9ab0)

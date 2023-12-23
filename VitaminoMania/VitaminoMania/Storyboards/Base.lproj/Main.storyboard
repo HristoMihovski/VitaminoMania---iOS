@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f85-PQ-a6v">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f85-PQ-a6v">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Summer-->
-        <scene sceneID="P3h-Pf-NTs">
+        <!--Spring-->
+        <scene sceneID="qYf-cy-2XS">
             <objects>
-                <viewController id="zs9-Ou-PQd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4hw-5a-0sE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="OGp-e6-R6e"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Summer" image="summer" selectedImage="summer" id="ho2-jo-IrY">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ynp-J2-Vik" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Fg-nH-dWz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Spring" id="hXJ-As-9tD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="fmS-CO-SZh"/>
+                </viewControllerPlaceholder>
             </objects>
-            <point key="canvasLocation" x="-687" y="1110"/>
+            <point key="canvasLocation" x="-1225" y="801"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DCP-4h-fBJ">
@@ -43,24 +35,6 @@
             </objects>
             <point key="canvasLocation" x="1284.0579710144928" y="381.69642857142856"/>
         </scene>
-        <!--Spring-->
-        <scene sceneID="uzZ-Z9-qIB">
-            <objects>
-                <viewController id="c2Z-5h-zMi" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hXf-Vi-XqA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="bVD-CU-NTC"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Spring" image="spring" selectedImage="spring" id="jIC-b2-WBd">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kSj-GO-L7g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1323" y="1110"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="isN-8I-cVz">
             <objects>
@@ -71,10 +45,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="c2Z-5h-zMi" kind="relationship" relationship="viewControllers" id="1Ux-qc-w2U"/>
-                        <segue destination="zs9-Ou-PQd" kind="relationship" relationship="viewControllers" id="918-BR-Frs"/>
                         <segue destination="DpS-vd-UNa" kind="relationship" relationship="viewControllers" id="OQE-fb-IWB"/>
                         <segue destination="Gud-TN-Tv4" kind="relationship" relationship="viewControllers" id="71M-yI-ykM"/>
+                        <segue destination="hXJ-As-9tD" kind="relationship" relationship="viewControllers" id="5tC-cQ-hDz"/>
+                        <segue destination="RDY-zl-3m6" kind="relationship" relationship="viewControllers" id="bh4-b5-beN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMl-FP-P9b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -121,12 +95,20 @@
             </objects>
             <point key="canvasLocation" x="373.91304347826087" y="381.69642857142856"/>
         </scene>
+        <!--Summer-->
+        <scene sceneID="g6q-K0-Ke9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Summer" id="RDY-zl-3m6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="9jY-Ux-7YI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I4A-A8-zWU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-830" y="801"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="autumn" width="40" height="40"/>
-        <image name="spring" width="40" height="40"/>
-        <image name="summer" width="40" height="40"/>
-        <image name="winter" width="40" height="40"/>
+        <image name="autumn" width="48" height="48"/>
+        <image name="winter" width="48" height="48"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

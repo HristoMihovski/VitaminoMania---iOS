@@ -104,9 +104,8 @@
 				CE11D2082B2DB9F600886DA9 /* AppDelegate.swift */,
 				CE11D20A2B2DB9F600886DA9 /* SceneDelegate.swift */,
 				CE11D20C2B2DB9F600886DA9 /* ViewController.swift */,
-				CE11D20E2B2DB9F600886DA9 /* Main.storyboard */,
+				CEEE6CCA2B4C567200D908BF /* Storyboards */,
 				CE11D2112B2DB9F800886DA9 /* Assets.xcassets */,
-				CE11D2132B2DB9F800886DA9 /* LaunchScreen.storyboard */,
 				CE11D2162B2DB9F800886DA9 /* Info.plist */,
 				CE11D2382B2DCB5600886DA9 /* Color.xcassets */,
 			);
@@ -128,6 +127,15 @@
 				CE11D22B2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift */,
 			);
 			path = VitaminoManiaUITests;
+			sourceTree = "<group>";
+		};
+		CEEE6CCA2B4C567200D908BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE11D20E2B2DB9F600886DA9 /* Main.storyboard */,
+				CE11D2132B2DB9F800886DA9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

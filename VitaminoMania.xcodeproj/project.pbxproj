@@ -156,15 +156,23 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		CE4E4FDE2B5077ED00841D9A /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */,
+				CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */,
+				CE7B6C1F2B4EFFA9007DE42C /* Autumn.storyboard */,
+				CE7B6C212B4EFFB7007DE42C /* Winter.storyboard */,
+			);
+			path = Seasons;
+			sourceTree = "<group>";
+		};
 		CEEE6CCA2B4C567200D908BF /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				CE11D20E2B2DB9F600886DA9 /* Main.storyboard */,
 				CE11D2132B2DB9F800886DA9 /* LaunchScreen.storyboard */,
-				CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */,
-				CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */,
-				CE7B6C1F2B4EFFA9007DE42C /* Autumn.storyboard */,
-				CE7B6C212B4EFFB7007DE42C /* Winter.storyboard */,
+				CE4E4FDE2B5077ED00841D9A /* Seasons */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";

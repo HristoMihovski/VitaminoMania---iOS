@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fxs-am-qxO">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Summer-->
+        <scene sceneID="idu-Zo-RQU">
+            <objects>
+                <viewController id="Fxs-am-qxO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LVo-w1-PLP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tg-dr-dbp">
+                                <rect key="frame" x="175" y="416" width="64" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OrM-He-2ot"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1tg-dr-dbp" firstAttribute="top" secondItem="OrM-He-2ot" secondAttribute="top" constant="357" id="Nsz-Fb-H3q"/>
+                            <constraint firstItem="1tg-dr-dbp" firstAttribute="leading" secondItem="OrM-He-2ot" secondAttribute="leading" constant="175" id="Sdf-fr-0VO"/>
+                            <constraint firstItem="OrM-He-2ot" firstAttribute="trailing" secondItem="1tg-dr-dbp" secondAttribute="trailing" constant="154" id="l7A-Gt-o9k"/>
+                            <constraint firstItem="OrM-He-2ot" firstAttribute="bottom" secondItem="1tg-dr-dbp" secondAttribute="bottom" constant="381" id="loe-4U-BF0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Summer" image="summer" selectedImage="summer" id="20A-fG-LPP">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Y6-sh-0Nd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-687" y="1110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="summer" width="40" height="40"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

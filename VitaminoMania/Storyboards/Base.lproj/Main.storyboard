@@ -4,62 +4,48 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Summer-->
-        <scene sceneID="P3h-Pf-NTs">
-            <objects>
-                <viewController id="zs9-Ou-PQd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4hw-5a-0sE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="OGp-e6-R6e"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Summer" image="summer" selectedImage="summer" id="ho2-jo-IrY">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ynp-J2-Vik" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-687" y="1110"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="DCP-4h-fBJ">
-            <objects>
-                <viewController id="Jrp-wc-FYE" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8xD-9i-V6l">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="5Y3-bl-UoS"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="6bq-JK-07H"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hsp-Wn-ipZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1284.0579710144928" y="381.69642857142856"/>
-        </scene>
         <!--Spring-->
-        <scene sceneID="uzZ-Z9-qIB">
+        <scene sceneID="PQZ-on-zE5">
             <objects>
-                <viewController id="c2Z-5h-zMi" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hXf-Vi-XqA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="bVD-CU-NTC"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Spring" image="spring" selectedImage="spring" id="jIC-b2-WBd">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kSj-GO-L7g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Spring" id="qsL-vf-zSu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="u03-8i-3R1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yyx-QY-aIx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1323" y="1110"/>
+            <point key="canvasLocation" x="-1065" y="797"/>
+        </scene>
+        <!--Summer-->
+        <scene sceneID="TKw-0U-FgK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Summer" id="qcg-ZO-khm" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="xOl-SE-LXU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G0Q-cc-UYC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695" y="797"/>
+        </scene>
+        <!--Autumn-->
+        <scene sceneID="D0i-Yo-WkH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Autumn" id="1SQ-2l-cn4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="XsI-P4-9wQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P9y-6P-YFq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-341" y="797"/>
+        </scene>
+        <!--Winter-->
+        <scene sceneID="fpq-Tf-dgl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Winter" id="jdH-zM-WdR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="1bh-dl-jUF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7fS-bx-oVH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="797"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="isN-8I-cVz">
@@ -71,64 +57,15 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="c2Z-5h-zMi" kind="relationship" relationship="viewControllers" id="1Ux-qc-w2U"/>
-                        <segue destination="zs9-Ou-PQd" kind="relationship" relationship="viewControllers" id="918-BR-Frs"/>
-                        <segue destination="DpS-vd-UNa" kind="relationship" relationship="viewControllers" id="OQE-fb-IWB"/>
-                        <segue destination="Gud-TN-Tv4" kind="relationship" relationship="viewControllers" id="71M-yI-ykM"/>
+                        <segue destination="qsL-vf-zSu" kind="relationship" relationship="viewControllers" id="ASR-jI-dLL"/>
+                        <segue destination="qcg-ZO-khm" kind="relationship" relationship="viewControllers" id="IWR-hf-T2R"/>
+                        <segue destination="1SQ-2l-cn4" kind="relationship" relationship="viewControllers" id="E95-cr-sdf"/>
+                        <segue destination="jdH-zM-WdR" kind="relationship" relationship="viewControllers" id="PSq-KK-JQr"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMl-FP-P9b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-446" y="383"/>
         </scene>
-        <!--Autumn-->
-        <scene sceneID="dAC-lJ-vyY">
-            <objects>
-                <viewController id="DpS-vd-UNa" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zxB-zQ-J6B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="YBO-kw-Omf"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Autumn" image="autumn" id="ZOJ-vz-UO2">
-                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Csf-8h-bFa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-54" y="1110"/>
-        </scene>
-        <!--Winter-->
-        <scene sceneID="fRv-xu-H89">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gud-TN-Tv4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Winter" image="winter" id="PB0-dp-A07">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="5"/>
-                    </tabBarItem>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PyF-rk-und">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Jrp-wc-FYE" kind="relationship" relationship="rootViewController" id="eER-YJ-v7Q"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KfN-tp-Sct" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="373.91304347826087" y="381.69642857142856"/>
-        </scene>
     </scenes>
-    <resources>
-        <image name="autumn" width="40" height="40"/>
-        <image name="spring" width="40" height="40"/>
-        <image name="summer" width="40" height="40"/>
-        <image name="winter" width="40" height="40"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

@@ -17,6 +17,10 @@
 		CE11D22A2B2DB9F900886DA9 /* VitaminoManiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11D2292B2DB9F900886DA9 /* VitaminoManiaUITests.swift */; };
 		CE11D22C2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11D22B2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift */; };
 		CE11D2392B2DCB5600886DA9 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE11D2382B2DCB5600886DA9 /* Color.xcassets */; };
+		CE7B6C1C2B4EFF5F007DE42C /* Spring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */; };
+		CE7B6C1E2B4EFF90007DE42C /* Summer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */; };
+		CE7B6C202B4EFFA9007DE42C /* Autumn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C1F2B4EFFA9007DE42C /* Autumn.storyboard */; };
+		CE7B6C222B4EFFB7007DE42C /* Winter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C212B4EFFB7007DE42C /* Winter.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		CE11D2292B2DB9F900886DA9 /* VitaminoManiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminoManiaUITests.swift; sourceTree = "<group>"; };
 		CE11D22B2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminoManiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CE11D2382B2DCB5600886DA9 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Spring.storyboard; sourceTree = "<group>"; };
+		CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Summer.storyboard; sourceTree = "<group>"; };
+		CE7B6C1F2B4EFFA9007DE42C /* Autumn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Autumn.storyboard; sourceTree = "<group>"; };
+		CE7B6C212B4EFFB7007DE42C /* Winter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Winter.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,10 @@
 			children = (
 				CE11D20E2B2DB9F600886DA9 /* Main.storyboard */,
 				CE11D2132B2DB9F800886DA9 /* LaunchScreen.storyboard */,
+				CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */,
+				CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */,
+				CE7B6C1F2B4EFFA9007DE42C /* Autumn.storyboard */,
+				CE7B6C212B4EFFB7007DE42C /* Winter.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -243,9 +255,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE11D2152B2DB9F800886DA9 /* LaunchScreen.storyboard in Resources */,
+				CE7B6C222B4EFFB7007DE42C /* Winter.storyboard in Resources */,
 				CE11D2392B2DCB5600886DA9 /* Color.xcassets in Resources */,
 				CE11D2122B2DB9F800886DA9 /* Assets.xcassets in Resources */,
+				CE7B6C1C2B4EFF5F007DE42C /* Spring.storyboard in Resources */,
 				CE11D2102B2DB9F600886DA9 /* Main.storyboard in Resources */,
+				CE7B6C1E2B4EFF90007DE42C /* Summer.storyboard in Resources */,
+				CE7B6C202B4EFFA9007DE42C /* Autumn.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yyx-QY-aIx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1065" y="797"/>
+            <point key="canvasLocation" x="77" y="410"/>
         </scene>
         <!--Summer-->
         <scene sceneID="TKw-0U-FgK">
@@ -25,7 +25,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G0Q-cc-UYC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-695" y="797"/>
+            <point key="canvasLocation" x="78" y="382"/>
         </scene>
         <!--Autumn-->
         <scene sceneID="D0i-Yo-WkH">
@@ -35,7 +35,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P9y-6P-YFq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-341" y="797"/>
+            <point key="canvasLocation" x="77" y="355"/>
         </scene>
         <!--Winter-->
         <scene sceneID="fpq-Tf-dgl">
@@ -45,7 +45,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fS-bx-oVH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="797"/>
+            <point key="canvasLocation" x="70" y="329"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="isN-8I-cVz">

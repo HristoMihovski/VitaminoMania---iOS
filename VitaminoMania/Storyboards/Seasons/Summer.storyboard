@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qPP-Dc-GE4">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
@@ -14,7 +14,7 @@
             <objects>
                 <navigationController id="qPP-Dc-GE4" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6UD-2R-WYz">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -29,13 +29,17 @@
         <scene sceneID="idu-Zo-RQU">
             <objects>
                 <viewController id="Fxs-am-qxO" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="LVo-w1-PLP">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <view key="view" contentMode="scaleToFill" id="LVo-w1-PLP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tg-dr-dbp">
-                                <rect key="frame" x="175" y="460" width="64" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tg-dr-dbp">
+                                <rect key="frame" x="157" y="92" width="100" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="M9f-mM-ePy"/>
+                                    <constraint firstAttribute="height" constant="60" id="kQn-H0-gvp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -43,10 +47,10 @@
                         <viewLayoutGuide key="safeArea" id="OrM-He-2ot"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1tg-dr-dbp" firstAttribute="top" secondItem="OrM-He-2ot" secondAttribute="top" constant="357" id="Nsz-Fb-H3q"/>
-                            <constraint firstItem="1tg-dr-dbp" firstAttribute="leading" secondItem="OrM-He-2ot" secondAttribute="leading" constant="175" id="Sdf-fr-0VO"/>
-                            <constraint firstItem="OrM-He-2ot" firstAttribute="trailing" secondItem="1tg-dr-dbp" secondAttribute="trailing" constant="154" id="l7A-Gt-o9k"/>
-                            <constraint firstItem="OrM-He-2ot" firstAttribute="bottom" secondItem="1tg-dr-dbp" secondAttribute="bottom" constant="381" id="loe-4U-BF0"/>
+                            <constraint firstItem="OrM-He-2ot" firstAttribute="bottom" secondItem="1tg-dr-dbp" secondAttribute="bottom" id="Q4e-dF-Kja"/>
+                            <constraint firstItem="OrM-He-2ot" firstAttribute="trailing" secondItem="1tg-dr-dbp" secondAttribute="trailing" constant="157" id="Zyi-Ro-46F"/>
+                            <constraint firstItem="1tg-dr-dbp" firstAttribute="leading" secondItem="OrM-He-2ot" secondAttribute="leading" constant="157" id="fw2-Le-Va7"/>
+                            <constraint firstItem="1tg-dr-dbp" firstAttribute="top" secondItem="OrM-He-2ot" secondAttribute="top" id="wYs-Uw-2FS"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Summer" image="summer" selectedImage="summer" id="20A-fG-LPP">

@@ -17,6 +17,7 @@
 		CE11D22A2B2DB9F900886DA9 /* VitaminoManiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11D2292B2DB9F900886DA9 /* VitaminoManiaUITests.swift */; };
 		CE11D22C2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11D22B2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift */; };
 		CE11D2392B2DCB5600886DA9 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE11D2382B2DCB5600886DA9 /* Color.xcassets */; };
+		CE3C6F4C2B6410BA00062315 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6F4B2B6410BA00062315 /* Spring.swift */; };
 		CE4E4FDB2B50753B00841D9A /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E4FDA2B50753B00841D9A /* StoryboardExtension.swift */; };
 		CE7B6C1C2B4EFF5F007DE42C /* Spring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */; };
 		CE7B6C1E2B4EFF90007DE42C /* Summer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */; };
@@ -61,6 +62,7 @@
 		CE11D2292B2DB9F900886DA9 /* VitaminoManiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminoManiaUITests.swift; sourceTree = "<group>"; };
 		CE11D22B2B2DB9F900886DA9 /* VitaminoManiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminoManiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CE11D2382B2DCB5600886DA9 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		CE3C6F4B2B6410BA00062315 /* Spring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
 		CE4E4FDA2B50753B00841D9A /* StoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
 		CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Spring.storyboard; sourceTree = "<group>"; };
 		CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Summer.storyboard; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				CE11D2082B2DB9F600886DA9 /* AppDelegate.swift */,
 				CE11D20A2B2DB9F600886DA9 /* SceneDelegate.swift */,
 				CE11D20C2B2DB9F600886DA9 /* ViewController.swift */,
+				CE3C6F4B2B6410BA00062315 /* Spring.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE11D20D2B2DB9F600886DA9 /* ViewController.swift in Sources */,
+				CE3C6F4C2B6410BA00062315 /* Spring.swift in Sources */,
 				CE11D2092B2DB9F600886DA9 /* AppDelegate.swift in Sources */,
 				CE11D20B2B2DB9F600886DA9 /* SceneDelegate.swift in Sources */,
 				CE4E4FDB2B50753B00841D9A /* StoryboardExtension.swift in Sources */,

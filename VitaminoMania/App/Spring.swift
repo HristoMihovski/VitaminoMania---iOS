@@ -2,8 +2,9 @@ import UIKit
 import Firebase
 
 class Spring: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
-    let array = ["Apple", "Pear"]
+    
+    let fruits = ["Apple", "Pear", "Strawberries", "Cherries"]
+    let images = [#imageLiteral(resourceName: "apple"), #imageLiteral(resourceName: "pear"), #imageLiteral(resourceName: "strawberry"), #imageLiteral(resourceName: "cherry")]
     var firestore: Firestore!
     
     @IBOutlet weak var tableView: UITableView!
@@ -24,13 +25,13 @@ class Spring: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return array.count
+        return fruits.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Spring", for: indexPath)
 
-        cell.textLabel!.text = array[indexPath.row]
+        cell.textLabel!.text = fruits[indexPath.row]
 
         return cell
     }

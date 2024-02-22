@@ -3,7 +3,7 @@ import Firebase
 
 class Spring: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let fruits = ["Apple", "Pear", "Strawberries", "Cherries"]
+    let fruits = ["apple", "strawberry", "cherry", "pear"]
     let images = [#imageLiteral(resourceName: "apple"), #imageLiteral(resourceName: "pear"), #imageLiteral(resourceName: "strawberry"), #imageLiteral(resourceName: "cherry")]
     var firestore: Firestore!
     
@@ -35,32 +35,32 @@ class Spring: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
         return cell
     }
-
-    // Function to store data in Firestore
-    func storeDataInFirestore(text: String) {
-        firestore.collection("yourCollectionName").addDocument(data: [
-            "text": text
-        ]) { error in
-            if let error = error {
-                print("Error adding document: \(error)")
-            } else {
-                print("Document added successfully")
-            }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedItem = fruits[indexPath.row]
+        let storyboardName: String
+        let viewControllerIdentifier: String
+        
+        // Determine the storyboard and view controller identifier based on the selected item
+        switch selectedItem {
+        case "Item 1":
+            storyboardName = "AppleSpring"
+            viewControllerIdentifier = "AppleSpring"
+        case "Item 2":
+            storyboardName = "StrawberrySpring"
+            viewControllerIdentifier = "StrawberrySpring"
+        case "Item 3":
+            storyboardName = "CherrySpring"
+            viewControllerIdentifier = "CherrySpring"
+        case "Item 4":
+            storyboardName = "PearSpring"
+            viewControllerIdentifier = "PearSpring"
+        default:
+            storyboardName = "main"
+            viewControllerIdentifier = "Main"
         }
-    }
-
-    // Function to retrieve data from Firestore
-    func retrieveDataFromFirestore() {
-        firestore.collection("yourCollectionName").getDocuments { (querySnapshot, error) in
-            if let error = error {
-                print("Error getting documents: \(error)")
-            } else {
-                for document in querySnapshot!.documents {
-                    let text = document.data()["text"] as? String ?? ""
-                    print("Text from Firestore: \(text)")
-                    // You can use the retrieved text as needed
-                }
-            }
-        }
+        
+        let storyboard = UIStoryboard(name: storyboardName, bundle: nil)
+        let destinationViewController = storyboard.instantiateViewController(withIdentifier: viewControllerIdentifier)
+        navigationController?.pushViewController(destinationViewController, animated: true)
     }
 }

@@ -19,10 +19,24 @@
 		CE11D2392B2DCB5600886DA9 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE11D2382B2DCB5600886DA9 /* Color.xcassets */; };
 		CE3C6F4C2B6410BA00062315 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6F4B2B6410BA00062315 /* Spring.swift */; };
 		CE4E4FDB2B50753B00841D9A /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E4FDA2B50753B00841D9A /* StoryboardExtension.swift */; };
-		CE7B6C1C2B4EFF5F007DE42C /* Spring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */; };
+		CE59116C2B7D0AEE00A63D6E /* AppleSpring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE59116B2B7D0AEE00A63D6E /* AppleSpring.storyboard */; };
+		CE59116E2B7D158100A63D6E /* StrawberrySpring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE59116D2B7D158100A63D6E /* StrawberrySpring.storyboard */; };
+		CE5911702B7D15A100A63D6E /* CherrySpring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE59116F2B7D15A100A63D6E /* CherrySpring.storyboard */; };
+		CE5911722B7D195400A63D6E /* PearSpring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5911712B7D195400A63D6E /* PearSpring.storyboard */; };
+		CE5911752B7D373A00A63D6E /* BlueberrySummer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5911742B7D373A00A63D6E /* BlueberrySummer.storyboard */; };
+		CE5911772B7D374E00A63D6E /* AppleSummer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5911762B7D374E00A63D6E /* AppleSummer.storyboard */; };
+		CE5911792B7D375F00A63D6E /* PearSummer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5911782B7D375F00A63D6E /* PearSummer.storyboard */; };
+		CE59117B2B7D378000A63D6E /* PlumSummer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE59117A2B7D378000A63D6E /* PlumSummer.storyboard */; };
+		CE59117D2B7D378F00A63D6E /* CucumberSummer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE59117C2B7D378F00A63D6E /* CucumberSummer.storyboard */; };
+		CE78100A2B83B0FF005ECCC7 /* PlumAutumn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7810092B83B0FF005ECCC7 /* PlumAutumn.storyboard */; };
+		CE78100C2B83B4B2005ECCC7 /* AppleWinter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE78100B2B83B4B2005ECCC7 /* AppleWinter.storyboard */; };
+		CE78100E2B83B4C2005ECCC7 /* PearWinter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE78100D2B83B4C2005ECCC7 /* PearWinter.storyboard */; };
+		CE7B6C1C2B4EFF5F007DE42C /* SpringStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C1B2B4EFF5F007DE42C /* SpringStoryboard.storyboard */; };
 		CE7B6C1E2B4EFF90007DE42C /* Summer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */; };
 		CE7B6C202B4EFFA9007DE42C /* Autumn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C1F2B4EFFA9007DE42C /* Autumn.storyboard */; };
 		CE7B6C222B4EFFB7007DE42C /* Winter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B6C212B4EFFB7007DE42C /* Winter.storyboard */; };
+		CE7C38002B7E752400EA7507 /* AppleAutumn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7C37FF2B7E752400EA7507 /* AppleAutumn.storyboard */; };
+		CE7C38022B7E753300EA7507 /* PearAutumn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7C38012B7E753300EA7507 /* PearAutumn.storyboard */; };
 		CE7DF0B02B55A4F80097237F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE7DF0AF2B55A4F80097237F /* GoogleService-Info.plist */; };
 		CE7DF0B32B55A6800097237F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE7DF0B22B55A6800097237F /* FirebaseAuth */; };
 		CE7DF0B52B55A6800097237F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CE7DF0B42B55A6800097237F /* FirebaseDatabase */; };
@@ -64,10 +78,24 @@
 		CE11D2382B2DCB5600886DA9 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		CE3C6F4B2B6410BA00062315 /* Spring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
 		CE4E4FDA2B50753B00841D9A /* StoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
-		CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Spring.storyboard; sourceTree = "<group>"; };
+		CE59116B2B7D0AEE00A63D6E /* AppleSpring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppleSpring.storyboard; sourceTree = "<group>"; };
+		CE59116D2B7D158100A63D6E /* StrawberrySpring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StrawberrySpring.storyboard; sourceTree = "<group>"; };
+		CE59116F2B7D15A100A63D6E /* CherrySpring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CherrySpring.storyboard; sourceTree = "<group>"; };
+		CE5911712B7D195400A63D6E /* PearSpring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PearSpring.storyboard; sourceTree = "<group>"; };
+		CE5911742B7D373A00A63D6E /* BlueberrySummer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BlueberrySummer.storyboard; sourceTree = "<group>"; };
+		CE5911762B7D374E00A63D6E /* AppleSummer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppleSummer.storyboard; sourceTree = "<group>"; };
+		CE5911782B7D375F00A63D6E /* PearSummer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PearSummer.storyboard; sourceTree = "<group>"; };
+		CE59117A2B7D378000A63D6E /* PlumSummer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlumSummer.storyboard; sourceTree = "<group>"; };
+		CE59117C2B7D378F00A63D6E /* CucumberSummer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CucumberSummer.storyboard; sourceTree = "<group>"; };
+		CE7810092B83B0FF005ECCC7 /* PlumAutumn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlumAutumn.storyboard; sourceTree = "<group>"; };
+		CE78100B2B83B4B2005ECCC7 /* AppleWinter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppleWinter.storyboard; sourceTree = "<group>"; };
+		CE78100D2B83B4C2005ECCC7 /* PearWinter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PearWinter.storyboard; sourceTree = "<group>"; };
+		CE7B6C1B2B4EFF5F007DE42C /* SpringStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpringStoryboard.storyboard; sourceTree = "<group>"; };
 		CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Summer.storyboard; sourceTree = "<group>"; };
 		CE7B6C1F2B4EFFA9007DE42C /* Autumn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Autumn.storyboard; sourceTree = "<group>"; };
 		CE7B6C212B4EFFB7007DE42C /* Winter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Winter.storyboard; sourceTree = "<group>"; };
+		CE7C37FF2B7E752400EA7507 /* AppleAutumn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppleAutumn.storyboard; sourceTree = "<group>"; };
+		CE7C38012B7E753300EA7507 /* PearAutumn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PearAutumn.storyboard; sourceTree = "<group>"; };
 		CE7DF0AF2B55A4F80097237F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Volumes/VMware Shared Folders/shared.mac.vm/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,12 +201,58 @@
 		CE4E4FDE2B5077ED00841D9A /* Seasons */ = {
 			isa = PBXGroup;
 			children = (
-				CE7B6C1B2B4EFF5F007DE42C /* Spring.storyboard */,
+				CE920F862B7A848500923C28 /* Spring Fruits */,
+				CE5911732B7D1DD900A63D6E /* Summer Fruits */,
+				CE7C37FD2B7E63E600EA7507 /* Autumn Fruits */,
+				CE7C37FE2B7E641100EA7507 /* Winter Fruits */,
+				CE7B6C1B2B4EFF5F007DE42C /* SpringStoryboard.storyboard */,
 				CE7B6C1D2B4EFF90007DE42C /* Summer.storyboard */,
 				CE7B6C1F2B4EFFA9007DE42C /* Autumn.storyboard */,
 				CE7B6C212B4EFFB7007DE42C /* Winter.storyboard */,
 			);
 			path = Seasons;
+			sourceTree = "<group>";
+		};
+		CE5911732B7D1DD900A63D6E /* Summer Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				CE5911762B7D374E00A63D6E /* AppleSummer.storyboard */,
+				CE5911742B7D373A00A63D6E /* BlueberrySummer.storyboard */,
+				CE5911782B7D375F00A63D6E /* PearSummer.storyboard */,
+				CE59117A2B7D378000A63D6E /* PlumSummer.storyboard */,
+				CE59117C2B7D378F00A63D6E /* CucumberSummer.storyboard */,
+			);
+			path = "Summer Fruits";
+			sourceTree = "<group>";
+		};
+		CE7C37FD2B7E63E600EA7507 /* Autumn Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C37FF2B7E752400EA7507 /* AppleAutumn.storyboard */,
+				CE7C38012B7E753300EA7507 /* PearAutumn.storyboard */,
+				CE7810092B83B0FF005ECCC7 /* PlumAutumn.storyboard */,
+			);
+			path = "Autumn Fruits";
+			sourceTree = "<group>";
+		};
+		CE7C37FE2B7E641100EA7507 /* Winter Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				CE78100B2B83B4B2005ECCC7 /* AppleWinter.storyboard */,
+				CE78100D2B83B4C2005ECCC7 /* PearWinter.storyboard */,
+			);
+			path = "Winter Fruits";
+			sourceTree = "<group>";
+		};
+		CE920F862B7A848500923C28 /* Spring Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				CE59116B2B7D0AEE00A63D6E /* AppleSpring.storyboard */,
+				CE59116D2B7D158100A63D6E /* StrawberrySpring.storyboard */,
+				CE59116F2B7D15A100A63D6E /* CherrySpring.storyboard */,
+				CE5911712B7D195400A63D6E /* PearSpring.storyboard */,
+			);
+			path = "Spring Fruits";
 			sourceTree = "<group>";
 		};
 		CEEE6CCA2B4C567200D908BF /* Storyboards */ = {
@@ -304,15 +378,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE78100A2B83B0FF005ECCC7 /* PlumAutumn.storyboard in Resources */,
 				CE11D2152B2DB9F800886DA9 /* LaunchScreen.storyboard in Resources */,
+				CE78100E2B83B4C2005ECCC7 /* PearWinter.storyboard in Resources */,
 				CE7B6C222B4EFFB7007DE42C /* Winter.storyboard in Resources */,
+				CE5911722B7D195400A63D6E /* PearSpring.storyboard in Resources */,
 				CE7DF0B02B55A4F80097237F /* GoogleService-Info.plist in Resources */,
 				CE11D2392B2DCB5600886DA9 /* Color.xcassets in Resources */,
 				CE11D2122B2DB9F800886DA9 /* Assets.xcassets in Resources */,
-				CE7B6C1C2B4EFF5F007DE42C /* Spring.storyboard in Resources */,
+				CE7C38002B7E752400EA7507 /* AppleAutumn.storyboard in Resources */,
+				CE59117D2B7D378F00A63D6E /* CucumberSummer.storyboard in Resources */,
+				CE5911702B7D15A100A63D6E /* CherrySpring.storyboard in Resources */,
+				CE7B6C1C2B4EFF5F007DE42C /* SpringStoryboard.storyboard in Resources */,
 				CE11D2102B2DB9F600886DA9 /* Main.storyboard in Resources */,
+				CE5911752B7D373A00A63D6E /* BlueberrySummer.storyboard in Resources */,
 				CE7B6C1E2B4EFF90007DE42C /* Summer.storyboard in Resources */,
+				CE59116E2B7D158100A63D6E /* StrawberrySpring.storyboard in Resources */,
+				CE7C38022B7E753300EA7507 /* PearAutumn.storyboard in Resources */,
 				CE7B6C202B4EFFA9007DE42C /* Autumn.storyboard in Resources */,
+				CE78100C2B83B4B2005ECCC7 /* AppleWinter.storyboard in Resources */,
+				CE59116C2B7D0AEE00A63D6E /* AppleSpring.storyboard in Resources */,
+				CE5911792B7D375F00A63D6E /* PearSummer.storyboard in Resources */,
+				CE5911772B7D374E00A63D6E /* AppleSummer.storyboard in Resources */,
+				CE59117B2B7D378000A63D6E /* PlumSummer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -506,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
